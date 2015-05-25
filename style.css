@@ -1,0 +1,106 @@
+body {
+	font-family: Arial;
+}
+
+.container{
+	width: 1000px;
+	height: 900px;
+	padding: 10px;
+	margin: auto;
+	word-wrap: break-word;
+	background-color: rgb(200,200,200);
+}
+
+.header {
+	text-align: center;
+	margin: 10px;
+	padding: 10px;
+    border-radius: 10px;
+	background-color: rgb(0,0,0);
+}
+
+h1 {
+	font-family: Verdana;
+	font-size: 40px;
+	font-weight: normal;
+	margin: 0px;
+	color: rgb(255,255,255);
+}
+
+.boundbox {
+	display: flex;
+	margin: 10px;
+}
+
+.TOC {
+	padding: 10px;
+	width: 30%;
+	border-right: 2px;
+	border-right-style: solid;
+	border-right-color: rgb(0,0,0);
+}
+
+ol {
+	padding-left: 20px;
+}
+
+.content {
+	padding: 10px;
+	width: 80%;
+	height: 700px;
+	overflow-y: scroll;
+}
+
+.lesson {
+	border-bottom: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: rgb(0,0,0);
+}
+
+.concept {
+}
+
+h2 {
+}
+
+h3 {
+}
+
+.footer {
+	margin: 10px;
+	padding: 10px;
+	border-radius: 10px;
+	background-color: rgb(0,0,0);
+	display: flex;
+}
+
+.footerleft {
+	width: 70%;
+	margin: auto;
+	font-family: Verdana;
+	font-size: 20px;
+	color: rgb(255,255,255);
+	text-transform: uppercase;
+}
+
+.footerright {
+	width: 30%;
+	text-align: right;
+	font-family: Verdana;
+	font-size: 10px;
+	color: rgb(255,255,255);
+}
+
+li {
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+}
+
+a {
+	font-weight: bold;
+	color: rgb(198,98,28);
+}
+
+.pcenter {
+	text-align: center;
+}
